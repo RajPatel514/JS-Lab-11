@@ -22,4 +22,12 @@ class PerishableProductProperties extends ProductProperties {
         super(name, price, quantity);
         this.expirationDate = expirationDate;
     }
+
+    toString() {
+        return `Product: ${this.name}, Price: ${this.price}, Quantity: ${this.quantity}, Expiration Date: ${this.expirationDate}`;
+    }
+
 }
+
+let myChicken = new PerishableProductProperties("Chicken", 10, 5, "Jan-14");
+let myPeppers = new PerishableProductProperties("Hot Pepper", 5, 15, "Jan-30");
