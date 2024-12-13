@@ -21,6 +21,7 @@ class ProductProperties {
             let product = products[i];
             product.price = product.price - (product.price * discount);
         }
+        return products;
     }
 
 }
@@ -47,4 +48,4 @@ let myOrange = new PerishableProductProperties("Orange", 3, 7, "Jan-3");
 //Part 3 Array of products + Output
 
 let products = [myChicken, myPeppers, myBanana, myOrange];
-
+console.log(PerishableProductProperties.applyDiscount(products, 0.15));
