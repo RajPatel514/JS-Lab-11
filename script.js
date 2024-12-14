@@ -48,7 +48,7 @@ let myOil = new ProductProperties("Oil", 11, 2);
 
 
 //Part 3 Array of products + Output
-let products = [myChicken, myPeppers, myBanana, myOrange];
+let products = [myChicken, myPeppers, myBanana, myOrange, myBattery, myOil];
 console.log(PerishableProductProperties.applyDiscount(products, 0.15));
 
 
@@ -84,4 +84,5 @@ class Store {
 }
 
 //Part 5 - Testing the System
+
 
