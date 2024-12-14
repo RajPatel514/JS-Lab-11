@@ -65,5 +65,9 @@ class Store {
 
     }
 
+    findProductByName(name) {
+
+    }
+
 }
 
