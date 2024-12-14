@@ -60,4 +60,10 @@ class Store {
         this.inventory.push(product);
         console.log("Product was added to inventory");
     }
+
+    getInventoryValue() {
+
+    }
+
 }
+
