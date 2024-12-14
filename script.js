@@ -46,6 +46,13 @@ let myOrange = new PerishableProductProperties("Orange", 3, 7, "Jan-3");
 
 
 //Part 3 Array of products + Output
-
 let products = [myChicken, myPeppers, myBanana, myOrange];
 console.log(PerishableProductProperties.applyDiscount(products, 0.15));
+
+
+//Part 4 - Store Management
+class Store {
+    constructor(inventory) {
+        this.inventory = inventory;
+    }
+}
