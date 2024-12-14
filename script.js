@@ -87,4 +87,11 @@ class Store {
 }
 
 //Part 5 - Testing the System
-let myStore = new Store(products);
+//let myStore = new Store(products);
+
+let myStore = new Store;
+myStore.addProduct(myChicken);
+myStore.addProduct(myBanana);
+myStore.addProduct(myBattery);
+myStore.addProduct(myOil);
+myStore.addProduct(myPeppers);
