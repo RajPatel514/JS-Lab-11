@@ -84,5 +84,4 @@ class Store {
 }
 
 //Part 5 - Testing the System
-
-
+let myStore = new Store(products);
