@@ -16,6 +16,7 @@ class ProductProperties {
     }
 
     //Part 3 - Static Methods & Properties
+    //Static method to loop through index and apple discount rate to each index item
     static applyDiscount(products, discount) {
         for (let i = 0; i < products.length; i++) {
             let product = products[i];
@@ -64,6 +65,7 @@ class Store {
     }
 
     getInventoryValue() {
+        //method to loop through the array and add up all the price values
         let totalValue = 0;
         for (let i = 0; i < this.inventory.length; i++) {
             totalValue = this.inventory[i].price * this.inventory[i].quantity;
@@ -72,6 +74,7 @@ class Store {
     }
 
     findProductByName(name) {
+        //Method to loop through array and look for matching names, else null
         for (let i = 0; i < this.inventory.length; i++) {
             if (this.inventory[i].name === name) {
                 return this.inventory[i];
