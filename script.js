@@ -72,7 +72,13 @@ class Store {
     }
 
     findProductByName(name) {
-
+        for (let i = 0; i < this.inventory.length; i++) {
+            if (this.inventory[i].name === name) {
+                return this.inventory[i];
+            } else {
+                return null;
+            }
+        }
     }
 
 }
