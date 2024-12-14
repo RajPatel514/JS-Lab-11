@@ -43,6 +43,8 @@ let myChicken = new PerishableProductProperties("Chicken", 10, 5, "Jan-14");
 let myPeppers = new PerishableProductProperties("Hot Pepper", 5, 15, "Jan-30");
 let myBanana = new PerishableProductProperties("Banana", 7, 20, "Jan-15");
 let myOrange = new PerishableProductProperties("Orange", 3, 7, "Jan-3");
+let myBattery = new ProductProperties("Battery", 8, 12);
+let myOil = new ProductProperties("Oil", 11, 2);
 
 
 //Part 3 Array of products + Output
