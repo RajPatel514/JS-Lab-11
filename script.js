@@ -64,7 +64,11 @@ class Store {
     }
 
     getInventoryValue() {
-
+        let totalValue = 0;
+        for (let i = 0; i < this.inventory.length; i++) {
+            totalValue = this.inventory[i].price * this.inventory[i].quantity;
+        }
+        return totalValue
     }
 
     findProductByName(name) {
