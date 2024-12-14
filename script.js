@@ -47,7 +47,7 @@ console.log(PerishableProductProperties.applyDiscount(products, 0.15));
 //Part 4 - Store Management
 class Store {
     constructor(inventory) {
-        this.inventory = inventory;
+        this.inventory = [inventory];
     }
     addProduct(product) {
         this.inventory.push(product);
@@ -81,3 +81,5 @@ myStore.addProduct(myBanana);
 myStore.addProduct(myBattery);
 myStore.addProduct(myOil);
 myStore.addProduct(myPeppers);
+
+// console.log(myStore.getInventoryValue) //Not working at time of submission
