@@ -83,3 +83,4 @@ myStore.addProduct(myOil);
 myStore.addProduct(myPeppers);
 
 // console.log(myStore.getInventoryValue) //Not working at time of submission
+// console.log(myStore.findProductByName("Oil")); //Not working at time of submission
