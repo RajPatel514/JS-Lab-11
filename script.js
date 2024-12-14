@@ -55,4 +55,9 @@ class Store {
     constructor(inventory) {
         this.inventory = inventory;
     }
+
+    addProduct(product) {
+        this.inventory.push(product);
+        console.log("Product was added to inventory");
+    }
 }
